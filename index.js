@@ -59,6 +59,14 @@ module.exports = {
     ],
   },
   overrides: [
+    // ? Fixes React not being in scope
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        'no-undef': 'off',
+      },
+    },
+    // ? Not sure what this does 🙃
     {
       files: ['**/*.js'],
       rules: {
