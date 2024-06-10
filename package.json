@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-nhuesmann-ts-react",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "ESLint config for TypeScript React projects",
   "keywords": [
     "eslint",
